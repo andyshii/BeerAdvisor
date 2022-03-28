@@ -1,25 +1,15 @@
 # Beer advisor
 
-This is a sourse for my pet project. Telegram bot that can recognize ±199 different beers and reply with based information.
-Model Yolov5 was taken form *[Ultralytics](https://github.com/ultralytics/yolov5/)* and fine-tuned on 4k images
+Пришел в магазин или бар и хочешь попробовать новый вкус пива? Но как же сделать свой выбор...
 
-## Installation
-Clone this repo and install dependencies and yolo dependencies.
+![detectioon](https://thumbs.dreamstime.com/b/%D0%B1%D0%B0%D0%BD%D0%BA%D0%B8-%D0%BF%D0%B8%D0%B2%D0%B0-%D0%B2-%D0%BF%D0%BE-%D0%BA%D0%B5-%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%B0-63370331.jpg 'Магазинная полка')
 
-```sh
-git clone
-pip install -r requirements.txt 
-cd yolov5
-pip install -r requirements.txt 
-```
-Create config.py in project root and add your bot token
-```sh
-echo "TOKEN = 'your token here'" > config.py
-```
-## Run bot
+Отправь фотографию в телеграм-бот и узнай всю полезную информацию.
 
-```sh
-python bot.py
-```
+Для обучения использовали модель YOLOv5 от *[Ultralytics](https://github.com/ultralytics/yolov5/)*.  <br/>
+Было использовано около 4 тыс. фотографий  <br/>
+Модель умеет определять 199 различных банок и бутылок
 
-
+Проект был выполнен за 14 дней при участии:
+ - https://github.com/andystep1
+ - https://github.com/valkhan13
